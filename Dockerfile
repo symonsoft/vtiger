@@ -17,7 +17,7 @@ RUN { \
         echo 'max_execution_time=0'; \
         echo 'error_reporting=E_WARNING & ~E_NOTICE & ~E_DEPRECATED'; \
         echo 'log_errors=Off'; \
-        echo 'short_open_tag=On'; \
+        echo 'short_open_tag=Off'; \
     } > /usr/local/etc/php/conf.d/vtiger-recommended.ini
 
 # setting the reccomended for opcache
